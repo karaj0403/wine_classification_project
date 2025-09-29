@@ -24,3 +24,8 @@ For each split:
 
 ## Usage
 1. Install requirements:
+scikit-learn
+matplotlib
+numpy
+pandas
+jupyter

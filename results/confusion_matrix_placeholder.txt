@@ -1,14 +1,23 @@
-This folder will contain confusion matrix images generated from the wine classification experiments.
+This folder contains confusion matrix images generated from the wine classification experiments.
 
-Example:
+Examples:
 
 - Confusion matrix for 70:15:15 split:
   - All classes predicted correctly.
-  - Accuracy: 1.0000
+  - Validation Accuracy: 1.0000
+  - Test Accuracy: 1.0000
   - Class-wise precision, recall, F1-score all 1.00
   - Support: class_0=9, class_1=11, class_2=7
 
 - Confusion matrix for 60:20:20 split:
-  - Minor misclassification observed in class_2.
-  - Accuracy: ~0.9722
-  - Detailed classification report saved as reference.
+  - Minor misclassification observed in class_1 and class_2.
+  - Validation Accuracy: 1.0000
+  - Test Accuracy: 0.9722
+  - Detailed classification report saved as reference
+  - Class-wise precision: class_0=1.00, class_1=0.93, class_2=1.00
+  - Class-wise recall: class_0=1.00, class_1=1.00, class_2=0.90
+  - Class-wise F1-score: class_0=1.00, class_1=0.97, class_2=0.95
+
+Future files in this folder:
+- confusion_matrix_70_15_15.png
+- confusion_matrix_60_20_20.png

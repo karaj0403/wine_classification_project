@@ -1,9 +1,5 @@
 # wine_classification_project
 ReRquired capstone component 5.1: Analysing how data splitting affects the model's performance
-# Wine Classification Project
-
-This repository contains experiments with different training-validation-test splits for the Wine dataset using Logistic Regression and scaling.
-
 ## Project Overview
 - Dataset: `sklearn.datasets.load_wine()`
 - Models: Logistic Regression
